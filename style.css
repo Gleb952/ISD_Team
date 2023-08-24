@@ -1,0 +1,56 @@
+body{
+    overflow-x: hidden;
+}
+img{
+    width: 70%;
+    height: auto;
+}
+.main{
+    width: 100%;
+}
+.container {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 20px;
+    height: 100vh;
+  
+    grid-template-areas:
+      "A A A B B"
+      "C C D D D"
+      "E E E F F"
+      "G G G H H"
+      "I I I I I";
+  }
+.content_box1, .content_box2, .content_box3, .content_box4,
+ .content_box5, .content_box6, .content_box7, .content_box8, .content_box9{
+    max-width: 50%;
+}
+.content_box1{
+    grid-area: A;
+}
+.content_box2{
+    grid-area: B;
+}
+.content_box3{
+    grid-area: C;
+}
+.content_box4{
+    grid-area: D;
+}
+.content_box5{
+    grid-area: E;
+}
+.content_box6{
+    grid-area: F
+}
+.content_box7{
+    grid-area: G;
+}
+.content_box8{
+    grid-area: H;
+}
+.content_box9{
+    grid-area: I;
+}
+
